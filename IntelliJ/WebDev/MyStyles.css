@@ -1,0 +1,101 @@
+body {
+    margin-left: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    background-color: gainsboro; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div.sideNav {
+    font-size: 15px;
+    text-align: center;
+    height: 100%;
+    width: 100px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: brown; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s;
+    display: inline-block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+h3 {
+    font-family: Arial, Verdana, Helvetica; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: rebeccapurple
+}
+
+h4 {
+    font-family: Arial, Verdana, Helvetica; 
+    font-size: 18px; 
+    font-weight: bold; 
+    color:crimson
+}
+
+blockquote {
+    font-family: cursive; 
+    font-size: 14px
+} 
+
+div.testimonial {
+    width: 180px;
+    padding: 7px;
+    border-color: rebeccapurple;
+    border-width: medium; border-style: groove;
+    font-family: fantasy;
+}
+
+div.sponsors1 {
+    width: 200px;
+    float: right;
+    
+}
+
+div.sponsors2 {
+    width: auto;
+    float: right;
+    clear: right;
+}
+
+table.shifts {
+    width: 300px;
+    border-width: medium;
+    border-color: black;
+}
+
+h1.Header {
+    background-color: rebeccapurple;
+    color: aquamarine;
+}
+
+a.button {
+    color: white;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #555555;
+    font-size: 20px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    display: inline-block;
+}
+a.button:hover {
+    background-color: aliceblue;
+    color: white;
+}
+
